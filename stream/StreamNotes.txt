@@ -1,0 +1,15 @@
+- Consumer is a functional interface that has a method called "accept" ,void return type and accept one argument
+- we implement it in foreach in stream api that takes consumer
+
+- Predicate is a functional interface that has a method called "test", boolean return type and accept one argument
+- we implement it in filter in stream api that takes predicate
+
+- Supplier is a functional interface that has a method called "get" , genertic return type with no argumant
+- we use it in orElseGet() in stream
+
+- Map takes function as argument, it takes two argument, works on one return another
+
+https://javahungry.blogspot.com/2022/07/intermediate-vs-terminal-operations.html
+
+Intermediate operations process the current stream of data (if any) and then return a new stream. Terminal operations as the name suggests are the last in the pipeline of operations performed on a stream. 
+
