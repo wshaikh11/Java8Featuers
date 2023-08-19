@@ -1,0 +1,10 @@
+MethodReference : MR is a special type of lambda expression that execute only one method
+Syntax : Object::methodName : Object is reference to call the method and methodName is the method call
+- We directely can't write Object::methodName, instead we should write it in lambda expression where we are calling a method
+- There are 2 types of method reference
+1] static MR
+2] instance MR
+3] constructor MR
+
+- For instance MR we need to create the object of the class and then call the objectName::methodName, but if there are no argument to the fuction, then it behaves as static, mo need to create the object
+
