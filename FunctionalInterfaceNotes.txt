@@ -1,0 +1,13 @@
+Functional Interface & default method
+- It is an interface that has only one abstract method but can have multiple default and static method.
+- Functional Interfaces introduced in Java 8 allow us to use a lambda expression to initiate the interface's method and avoid using lengthy codes for the anonymous class implementation.
+- Consumer, predicate, suppliers
+
+
+- We can create the instance of interface by using lambda function
+- If we implement the interface, we don't necessarily need to implement the default method , it is automatically inherited 
+- if there is requirement then we can override it, static method cannot be overridden
+
+- default interface solve the diamond problem, we cannot extend two class, but we can implement two interface
+- if two interface have same default method with same name, then the class implementing it need to implement the default interface and call via super method
+- Interface.super.defaultMethod()
