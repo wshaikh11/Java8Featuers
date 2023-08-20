@@ -1,0 +1,8 @@
+Optional Class: https://www.youtube.com/watch?v=S1Cwj2ubIhs
+- Optional class was introduced in java 8 to handle null pointer exception effectively
+- Like before optional was introduced, we need to check if the object is null
+- No can avoid null pointer exception with the use of optional class
+
+
+We can create the Optional by Optional.of Optional.OfNullable 
+orElseThrow
