@@ -13,3 +13,9 @@ https://javahungry.blogspot.com/2022/07/intermediate-vs-terminal-operations.html
 
 Intermediate operations process the current stream of data (if any) and then return a new stream. Terminal operations as the name suggests are the last in the pipeline of operations performed on a stream. 
 
+1] count the occurence of each char in a string
+2] find duplicate from the string
+3] First non-repeative element in the string
+4] Find the second higest number from array
+5] Find the longest String 
+6] Find all the element that starts with 1
