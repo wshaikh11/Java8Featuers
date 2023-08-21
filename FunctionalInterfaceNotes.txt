@@ -1,7 +1,7 @@
 Functional Interface & default method
 - It is an interface that has only one abstract method but can have multiple default and static method.
 - Functional Interfaces introduced in Java 8 allow us to use a lambda expression to initiate the interface's method and avoid using lengthy codes for the anonymous class implementation.
-- Consumer, predicate, suppliers
+- Consumer, predicate, suppliers, comparable, comparator
 
 
 - We can create the instance of interface by using lambda function
